@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Menu } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   return (
@@ -26,8 +27,10 @@ const Header = () => {
           <Button variant="ghost" className="hidden md:flex">
             Sign In
           </Button>
-          <Button variant="hero" className="hidden md:flex">
-            Start Building <ArrowRight className="w-4 h-4" />
+          <Button variant="hero" className="hidden md:flex" asChild>
+            <Link to="/admin">
+              Start Building <ArrowRight className="w-4 h-4" />
+            </Link>
           </Button>
           <Button variant="ghost" size="icon" className="md:hidden">
             <Menu className="w-5 h-5" />

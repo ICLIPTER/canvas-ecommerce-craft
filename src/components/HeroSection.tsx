@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Play } from "lucide-react";
+import { Link } from "react-router-dom";
 import heroImage from "@/assets/hero-dashboard.jpg";
 
 const HeroSection = () => {
@@ -25,8 +26,10 @@ const HeroSection = () => {
             </div>
 
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button variant="hero" size="lg" className="text-lg px-8 py-6">
-                Start Building Free <ArrowRight className="w-5 h-5" />
+              <Button variant="hero" size="lg" className="text-lg px-8 py-6" asChild>
+                <Link to="/admin">
+                  Start Building Free <ArrowRight className="w-5 h-5" />
+                </Link>
               </Button>
               <Button variant="outline" size="lg" className="text-lg px-8 py-6">
                 <Play className="w-5 h-5" /> Watch Demo

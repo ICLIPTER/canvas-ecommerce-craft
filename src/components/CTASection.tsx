@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { ArrowRight, Sparkles } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const CTASection = () => {
   return (
@@ -34,8 +35,11 @@ const CTASection = () => {
               variant="secondary" 
               size="lg" 
               className="text-lg px-8 py-6 bg-white text-primary hover:bg-white/90 shadow-elegant"
+              asChild
             >
-              Start Building Free <ArrowRight className="w-5 h-5" />
+              <Link to="/admin">
+                Start Building Free <ArrowRight className="w-5 h-5" />
+              </Link>
             </Button>
             <Button 
               variant="outline" 
