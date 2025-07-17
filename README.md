@@ -8,7 +8,7 @@
 There are several ways of editing your application.
 
 
-**Use Lova
+**Use Lov
 
 
 Changes made via Lovable will be committed automatically to this repo.
