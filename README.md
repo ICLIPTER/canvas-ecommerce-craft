@@ -1,5 +1,4 @@
 # Welcome to your Lovable project
-
 ## Project info
 
 ## How can I edit this code?
