@@ -1,4 +1,4 @@
-# Welcome to your Lovable projec
+ Welcome to your Lovable projec
 
 
 ## How can I edit this code?
