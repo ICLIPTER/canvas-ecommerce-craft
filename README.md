@@ -1,4 +1,4 @@
-me to your Lovable proje
+e to your Lovable proje
 
 ## How can I edit this code?
 There are several ways of editing your application.
