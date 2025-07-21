@@ -3,7 +3,6 @@ ome to your Lovable proje
 ## How can I edit this code?
 There are several ways of editing your application.
 
-
 **Use 
 Changes made via Lovable will be committed automatically to this repo.
 
