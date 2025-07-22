@@ -1,5 +1,5 @@
 
-## How can I e
+## How can
 There are several ways of editing your application.
 
 
