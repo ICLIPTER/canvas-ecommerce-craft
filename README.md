@@ -1,6 +1,6 @@
 
 
-## How can I edit this co
+## How can I edit this 
 There are several ways of editing your application.
 
 
