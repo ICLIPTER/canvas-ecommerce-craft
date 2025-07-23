@@ -1,6 +1,6 @@
 
 
-There are several ways of editing your 
+There are several ways of editing 
 
 
 
