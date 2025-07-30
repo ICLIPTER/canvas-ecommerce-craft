@@ -1,5 +1,5 @@
 
-There are several ways of editing
+There are several ways of 
 
 **Use your preferred IDE**
 
